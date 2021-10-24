@@ -29,9 +29,9 @@ spec:
           containerPort: 80
         env:
         - name: DOMAINS
-          value: kubernetes-letsencrypt.jorge.fail
+          value: houzztec.com
         - name: EMAIL
-          value: jorge@runnable.com
+          value: nixonlauture@gmail.com
         - name: SECRET
           value: letsencrypt-certs
       restartPolicy: Never
