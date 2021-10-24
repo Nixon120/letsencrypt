@@ -8,10 +8,10 @@ metadata:
 spec:
   tls:
   - hosts:
-    - kubernetes-letsencrypt.jorge.fail
+    - houzztec.com
     secretName: letsencrypt-certs
   rules:
-  - host: kubernetes-letsencrypt.jorge.fail
+  - host: houzztec.com
     http:
       paths:
       # The * is needed so that all traffic gets redirected to the nginx box
